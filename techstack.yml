@@ -1,0 +1,151 @@
+repo_name: ankurkumarz/linkerd-website
+report_id: '018efc4a72111a023b2f4d50128b5789'
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:00:57+00:00'
+requested_by: Otterpohl
+provider: github
+branch: main
+detected_tools_count: 12
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website
+  detection_source: Repo Metadata
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website/blob/main/linkerd.io/themes/buoyant/layouts/robots.txt
+  detection_source: linkerd.io/themes/buoyant/layouts/robots.txt
+  last_updated_by: Patrick Heneise
+  last_updated_on: 2020-09-14 16:55:52.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website/blob/main/.github/workflows/check.yml
+  detection_source: ".github/workflows/check.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-13 16:10:01.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website/blob/main/linkerd.io/package-lock.json
+  detection_source: linkerd.io/package.json
+  last_updated_by: Thomas Rampelberg
+  last_updated_on: 2020-09-22 22:16:44.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website/blob/main/linkerd.io/package.json
+  detection_source: linkerd.io/package.json
+  last_updated_by: Patrick Heneise
+  last_updated_on: 2019-03-26 17:05:12.000000000 Z
+- name: Netlify
+  description: Build, deploy and host your static site or app with a drag and drop
+    interface and automatic delpoys from GitHub or Bitbucket
+  website_url: https://www.netlify.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website/blob/main/netlify.toml
+  detection_source: netlify.toml
+  last_updated_by: Luc Perkins
+  last_updated_on: 2019-02-14 19:29:41.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website/blob/main/linkerd.io/content/2.10/checks/index.html
+  detection_source: linkerd.io/content/2.10/checks/index.html
+  last_updated_by: Alejandro Pedraza
+  last_updated_on: 2021-05-08 20:30:31.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website/blob/main/linkerd.io/themes/buoyant/layouts/robots.txt
+  detection_source: linkerd.io/themes/buoyant/layouts/robots.txt
+  last_updated_by: Patrick Heneise
+  last_updated_on: 2020-09-14 16:55:52.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website
+  detection_source: Repo Metadata
+- name: markdownlint-cli
+  description: MarkdownLint Command Line Interface
+  package_url: https://www.npmjs.com/markdownlint-cli
+  version: 0.23.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17273/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: https://github.com/ankurkumarz/linkerd-website/blob/main/linkerd.io/package-lock.json
+  detection_source: linkerd.io/package.json
+  last_updated_by: Thomas Rampelberg
+  last_updated_on: 2020-09-22 22:16:44.000000000 Z
