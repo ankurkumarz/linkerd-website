@@ -2,7 +2,7 @@ repo_name: ankurkumarz/linkerd-website
 report_id: '018efc4a72111a023b2f4d50128b5789'
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:25:00+00:00'
+timestamp: '2024-02-29T19:00:57+00:00'
 requested_by: Otterpohl
 provider: github
 branch: main
@@ -64,7 +64,7 @@ tools:
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-05-13 16:10:01.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.1.2
   license: MIT
